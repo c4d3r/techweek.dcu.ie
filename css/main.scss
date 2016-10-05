@@ -9,37 +9,39 @@ body {
         flex-wrap: wrap;
         justify-content: center;
 
-        .title {
-            margin: 0 32px;
-            text-align: center;
+        .sub-wrap {
+            .title {
+                margin: 0 32px;
+                text-align: center;
 
-            &__text {
-                margin: .5em 0 .3em;
-                font-size: 15vmin;
-                font-weight: 100;
+                &__text {
+                    margin: .5em 0 .3em;
+                    font-size: 15vmin;
+                    font-weight: 100;
 
-                &__colour {
-                    color: $color-red;
-                    font-weight: 300;
+                    &__colour {
+                        color: $color-red;
+                        font-weight: 300;
+                    }
+
+                    a {
+                        color: $color-black;
+                    }
                 }
 
-                a {
-                    color: $color-black;
-                }
-            }
+                .menu {
+                    list-style-type: none;
+                    margin: 8px 0;
+                    padding: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
 
-            .menu {
-                list-style-type: none;
-                margin: 8px 0;
-                padding: 0;
-                overflow: hidden;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-
-                &__item {
-                    float: left;
-                    padding: 0 8px;
+                    &__item {
+                        float: left;
+                        padding: 0 8px;
+                    }
                 }
             }
         }
